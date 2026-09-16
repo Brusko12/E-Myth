@@ -1,0 +1,18 @@
+# Оригинал книги НЕ коммитим: это защищённый авторским правом файл.
+# Он живёт локально, в репозиторий не попадает.
+original/*.epub
+original/*.pdf
+original/*.mobi
+original/*.azw3
+original/*.txt
+original/*.html
+!original/README.md
+
+# Рабочий мусор
+.DS_Store
+*.tmp
+.cache/
+
+# Python
+__pycache__/
+*.pyc
